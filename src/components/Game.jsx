@@ -5,14 +5,14 @@ import Obstacle from './Obstacle.jsx';
 
 // Game Constants
 const GAME_WIDTH = 800;
-const GAME_HEIGHT = 200;
+const GAME_HEIGHT = 300;
 const DINO_WIDTH = 64;
 const DINO_HEIGHT = 64;
 const OBSTACLE_WIDTH = 32;
 const OBSTACLE_HEIGHT = 64;
 const GROUND_Y = GAME_HEIGHT - DINO_HEIGHT;
-const GRAVITY = 0.6;
-const JUMP_FORCE = -15;
+const GRAVITY = 0.65;
+const JUMP_FORCE = -12;
 const INITIAL_GAME_SPEED = 5;
 const SPEED_INCREASE_INTERVAL = 500; // Increase speed every 500 score
 
